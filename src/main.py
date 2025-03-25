@@ -13,6 +13,7 @@ def run():
             print("Camera read failed.")
             break
 
+        frame = cv2.flip(frame, 1)
         frame = detector.detect(frame)
         cv2.imshow('AI/AR/VR Project - Face Landmarks', frame)
 
