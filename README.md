@@ -10,10 +10,6 @@ This project enables real-time face landmark detection directly in your web brow
 - 🚀 Fast and privacy-friendly (no data leaves your device)
 - 🎯 Ideal for AR/VR, face filters, and styling assistants
 
-## 📸 Live Demo
-
-Try it here:  
-
 
 > ⚠️ Please allow camera access when prompted.
 
@@ -25,3 +21,6 @@ Try it here:
 4. Facial landmarks are drawn directly over the video.
 
 ## 🚀 Getting Started
+- Clone the project.
+- Intall the packages and run main.py.
+- The web browser will run and you will immediately see the face landmark detection working.
