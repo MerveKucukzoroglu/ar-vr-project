@@ -1,12 +1,27 @@
+# Real-Time Face Landmark Detection in the Browser
 
-### Current Feature
-- Real-time Face and Facial Landmark Detection using MediaPipe + OpenCV
+This project enables real-time face landmark detection directly in your web browser using the device's camera. It's built with HTML, JavaScript, and Google's [MediaPipe Face Mesh](https://google.github.io/mediapipe/solutions/face_mesh.html), allowing users to view facial feature tracking live — no installations or downloads required.
 
-Round	Width ≈ Length, soft jawline, high width/length ratio
-Square	Width ≈ Length, but with sharp jawline
-Oval	Length > Width, rounded jawline, cheekbones widest
-Oblong/Rectangular	Length ≫ Width, angular jaw
-Heart	Wide forehead, narrow jawline/chin
-Diamond	Narrow forehead and jaw, wide cheekbones
-Triangle	Jawline wider than forehead
-Inverted Triangle	Forehead wider than jawline, pointed chin
+## 🌟 Features
+
+- 🔍 468-point facial landmark detection
+- 💻 Runs entirely in the browser (client-side only)
+- 📱 Mobile and desktop compatible
+- 🚀 Fast and privacy-friendly (no data leaves your device)
+- 🎯 Ideal for AR/VR, face filters, and styling assistants
+
+## 📸 Live Demo
+
+Try it here:  
+
+
+> ⚠️ Please allow camera access when prompted.
+
+## 🛠️ How It Works
+
+1. JavaScript uses `getUserMedia()` to access the device camera.
+2. The video feed is rendered to a `<canvas>` element.
+3. MediaPipe Face Mesh processes each frame in real-time.
+4. Facial landmarks are drawn directly over the video.
+
+## 🚀 Getting Started
