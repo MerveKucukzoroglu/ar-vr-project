@@ -1,6 +1,6 @@
 # Real-Time Face Landmark Detection in the Browser
 
-This project enables real-time face landmark detection directly in your web browser using the device's camera. It's built with HTML, JavaScript, and Google's [MediaPipe Face Mesh](https://google.github.io/mediapipe/solutions/face_mesh.html), allowing users to view facial feature tracking live — no installations or downloads required.
+This project enables real-time face landmark detection directly in your web browser using the device's camera. It's built withpython, and Google's [MediaPipe Face Mesh](https://google.github.io/mediapipe/solutions/face_mesh.html), allowing users to view facial feature tracking live — no installations or downloads required.
 
 ## 🌟 Features
 
